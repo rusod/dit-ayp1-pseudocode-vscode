@@ -90,8 +90,6 @@ longitud|long
 concatena
 subcadena)
 ```
-### Snippets
-![Snippets](images/snippets.gif)
 
 ## Known Bugs
 
@@ -101,33 +99,10 @@ subcadena)
 
 ### 1.2.0
 
-- Added template strings (e.g. `"Hi ${user.name}"`)
-
-### 1.1.0
-
-- Added structs
-- Added `struct` and `structdo` snippets
-
-### 1.0.3
-
-- Fixed bug where do end would be autoclose in strings and comments
-
-### 1.0.2
-
-- Fixed bug which prevented comments in functions and procedures
-
-### 1.0.1
-
-- Minor changes to extension information
-
-### 1.0.0
-
-- Initial release with syntax highlighting and snippets for basic statements and definitions.
-
 
 # Créditos
 
-Basda en la extensión original
+Basda en la extensión original willumz.generic-pseudocode
 
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/willumz.generic-pseudocode)](https://marketplace.visualstudio.com/items?itemName=willumz.generic-pseudocode)
 <!-- [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/willumz.generic-pseudocode)](https://marketplace.visualstudio.com/items?itemName=willumz.generic-pseudocode) -->
