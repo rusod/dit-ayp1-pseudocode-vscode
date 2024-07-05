@@ -1,0 +1,34 @@
+{
+    "name": "ayp1-pseudocode",
+    "displayName": "AyP1 Pseudocode",
+    "description": "Una extensioón sencilla para sobresaltado de seudocódigo, baseda en la extensión de seudocódigo generiaca de Willumz.",
+    "publisher": "Diego Firmenich",
+    "icon": "images/icon.png",
+    "version": "1.2.0",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pseudocode",
+            "aliases": ["AyP 1 Pseudocode", "pseudocode"],
+            "extensions": [".pseudo"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pseudocode",
+            "scopeName": "source.pseudo",
+            "path": "./syntaxes/pseudocode.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+                "language": "pseudocode",
+                "path": "./snippets.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+	"Segun - Selección Múltiple": {
+		"prefix": "segun",
+		"body": [
+			"segun (${1:expresion_simple}) hacer",
+            "\t${2:valor 1}: ..",
+            "\t${3:valor 2}: ..",
+            "\tsino: ..",
+			"fin segun",
+		],
+		"description": "Selección múltiple"
+	},
+	"Desición simple: Si - fin si": {
+		"prefix": "Si",
+		"body": [
+			"Si (${1:condicion_logica}) entonces",
+            "\n\t",
+            "Fin si"
+		],
+		"description": "Selcción simple"
+	},
+	"Decisión dicotómica: Si-Sino-fin si": {
+		"prefix": "Sisino",
+		"body": [
+			"Si (${1:condicion_logica}) entonces",
+            "\n\t",
+            "sino",
+            "\n\t",
+            "fin si"
+		],
+        "description": "Seleccón dicotómica"
+    },
+	"Iteración: Repetir": {
+		"prefix": "repetir",
+		"body": [
+			"Repetir ${1:valor_positivo} veces",
+            "\n\t",
+            "fin repetir"
+		],
+		"description": "Iteración Repetir N veces"
+	},
+	"Iteración: Repetir-hasta": {
+		"prefix": "repetir-hasta",
+		"body": [
+			"Repetir",
+            "\n\t",
+            "Hasta condicion_corte"
+		],
+		"description": "Iteración Repetir Hasta"
+	},
+	"Iteracón: desde": {
+		"prefix": "desde",
+		"body": [
+			"Desde ${1:variable} <- ${2:valor_inicial} hasta ${3:valor_final} hacer",
+            "\n\t",
+            "Fin desde"
+		],
+		"description": "Iteración Desde"
+	},
+	"Iteración: mientras": {
+		"prefix": "mientras",
+		"body": [
+			"Mientras condicion hacer",
+            "\n\t",
+            "Fin mientras"
+		],
+		"description": "Iteración mientras"
+	},
+	
+	"Algoritmo principal": {
+		"prefix": "Algoritmo",
+		"body": [
+			"Algoritmo ${1:nombre_algoritmo}",
+			"Const\n",
+			"Tipos\n",
+			"Var\n",
+			"Inicio",
+			"\n\t ",
+            "Fin Algoritmo"
+		],
+		"description": "Define un algoritmo principal. "
+	},
+	"Subalgoritmo: Funcion": {
+		"prefix": "Funcion",
+		"body": [
+			"Funcion ${1:nombre_funcion} (E ${2:nombre_parametro}:${3:tipo_parametro}):${4:tipo_retorno}",
+			"/* Qué hace:",
+			"/* Precondiciones: ",
+			" * Poscondiciones: */ ",
+			"Variables",
+			"\t// Definir variables de la función, si fuera necesario.",
+			"Inicio",
+			"\t/*",
+			"\t/*Cuerpo Funcion",
+			"\t */",
+			"\n\t// Las funciones siempre deben retornar algo\n\t${1:nombre_funcion} <- ${5:valor_retorno}",
+            "Fin Funcion"
+		],
+		"description": "Define una función"
+	},
+	"Subalgoritmo: Procedimiento": {
+		"prefix": "Procedimiento",
+		"body": [
+			"Procedimiento ${1:nombre_procedimiento} (E/S ${2:nombre_parametro}:${3:tipo_parametro})",
+			"/* Qué hace:",
+			"/* Precondiciones: ",
+			" * Poscondiciones: */ ",
+			"Variables",
+			"\t// Definir variables del procedimiento, si fuera necesario.",
+			"Inicio",
+			"\t/*",
+			"\t/*Cuerpo Procedimiento",
+			"\t */",
+			"Fin Procedimiento"
+		],
+		"description": "Define un Procedimiento"
+	}
+
+	
+}
