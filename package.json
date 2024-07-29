@@ -1,7 +1,7 @@
 {
     "name": "ayp1-pseudocode",
-    "displayName": "AyP1 Pseudocode",
-    "description": "Una extensioón sencilla para sobresaltado de seudocódigo, baseda en la extensión de seudocódigo generiaca de Willumz.",
+    "displayName": "DIT - AyP1 Pseudocode",
+    "description": "Una extensión sencilla para sobresaltado de pseudocódigo. DIT. Universidad Nacional de la Patagonia. Argentina.",
     "publisher": "Diego Firmenich",
     "icon": "images/icon.png",
     "version": "1.2.0",
