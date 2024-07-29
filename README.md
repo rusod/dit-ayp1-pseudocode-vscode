@@ -1,7 +1,7 @@
 # Ayp1 # Pseudocode
 
-Esta es una extensión para escribir seudcódigo como lo hacemos en la Facultad de Ingeniería - Universidad Nacional de la Patagonia.
-Asignatura Alogorítmica y Programación 1
+Esta es una extensión para escribir pseudocódigo como lo hacemos en la Facultad de Ingeniería - Universidad Nacional de la Patagonia.
+Asignatura Algorítmica y Programación 1
 
 ## Features
 
