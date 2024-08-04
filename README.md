@@ -3,11 +3,11 @@
 Esta es una extensión para escribir pseudocódigo como lo hacemos en la Facultad de Ingeniería - Universidad Nacional de la Patagonia.
 Asignatura Algorítmica y Programación 1
 
-## Features
+## Características
 
-### Syntax Highlighting
+### Sobresaltado de sintaxis de seudocódigo
 
-The following items have syntax highlighting. Synonyms are separated by spaces.
+Las siguientes palabras son coloreadas en archivos .pseudo
 
 #### Palabras claves reconocidas:
 ```
@@ -91,18 +91,15 @@ concatena
 subcadena)
 ```
 
-## Known Bugs
-
-- do end autocloses in variables
-
 ## Release Notes
 
 ### 1.2.0
 
+Agrega logo DIT
 
 # Créditos
 
-Basda en la extensión original willumz.generic-pseudocode
+Basada en la extensión original willumz.generic-pseudocode
 
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/willumz.generic-pseudocode)](https://marketplace.visualstudio.com/items?itemName=willumz.generic-pseudocode)
 <!-- [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/willumz.generic-pseudocode)](https://marketplace.visualstudio.com/items?itemName=willumz.generic-pseudocode) -->
