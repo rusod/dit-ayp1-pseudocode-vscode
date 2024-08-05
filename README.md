@@ -93,7 +93,7 @@ subcadena)
 
 ## Release Notes
 
-### 1.2.0
+### 1.4.2
 
 Agrega logo DIT
 
