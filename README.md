@@ -5,7 +5,7 @@ Asignatura Algorítmica y Programación 1
 
 ## Características
 
-### Sobresaltado de sintaxis de seudocódigo
+### Resaltado de sintaxis de seudocódigo
 
 Las siguientes palabras son coloreadas en archivos .pseudo
 
