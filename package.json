@@ -1,10 +1,10 @@
 {
     "name": "ayp1-pseudocode",
     "displayName": "DIT - AyP1 Pseudocode",
-    "description": "Una extensión sencilla para sobresaltado de pseudocódigo. DIT. Universidad Nacional de la Patagonia. Argentina.",
+    "description": "Una extensión sencilla para resaltado de pseudocódigo. DIT. Universidad Nacional de la Patagonia. Argentina.",
     "publisher": "dafinf",
     "icon": "imagenes/icon.png",
-    "version": "1.4.6",
+    "version": "1.4.7",
     "engines": {
         "vscode": "^1.39.0"
     },
