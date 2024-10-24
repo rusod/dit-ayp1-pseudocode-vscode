@@ -5,8 +5,6 @@ Asignatura Algorítmica y Programación 1
 
 ## Características
 
-### Resaltado de sintaxis de seudocódigo
-
 Las siguientes palabras son coloreadas en archivos .pseudo
 
 #### Palabras claves reconocidas:
