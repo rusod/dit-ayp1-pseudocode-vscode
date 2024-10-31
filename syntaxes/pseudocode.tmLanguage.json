@@ -68,7 +68,7 @@
 				},
 				{
 					"name": "keyword.declaration.primitive.operations.pseudocode",
-					"match": "(?i)\\b(mostrar|ingresar|div|mod|siguiente|sig|anterior|ant|abs|redondear|trunc|rc|seno|coseno|tg|ln|exp|longitud|long|concatena|subcadena)\\b"
+					"match": "(?i)\\b(mostrar|ingresar|div|mod|siguiente|sig|anterior|ant|abs|redondear|trunc|rc|seno|coseno|tg|ln|exp|longitud|long|concatena|subcadena|abrir|crear|anexar|leer|escribir|esFirArchivo|leerLn|escribirLn|esFinLinea|dondeEstoy|posicionarse|tamaño|cerrar|renombrarArchivo|existeArchivo|borrarArchivo)\\b"
 				},
 				
 				{
