@@ -10,7 +10,7 @@
         ["{", "}"],
         ["[", "]"],
         ["(", ")"],
-        ["do", "end"]
+        ["Inicio", "Fin"]
     ],
     // symbols that are auto closed when typing
     "autoClosingPairs": [
@@ -19,7 +19,8 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"],
-        {"open": "do", "close": "end", "notIn": ["string", "comment"]},
+        ["Inicio", "\n\nFin"],
+        
     ],
     // symbols that that can be used to surround a selection
     "surroundingPairs": [
@@ -28,7 +29,9 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"],
-        ["do", "end"]
+        ["Inicio", "Fin"],
+        ["hacer", "fin mientras"],
+        ["Repetir", "Hasta"]
     ],
 
     "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)(?<!do)(?<!end)(?<!doend)",
