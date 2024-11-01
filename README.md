@@ -24,11 +24,11 @@ con paso
 hasta
 hacer
 entonces
-segun
-Fin Funcion
+segun/según
+Fin Funcion/Fin Función
 Fin Procedimiento
 Procedimiento
-Funcion
+Funcion/Función
 Inicio
 Fin
 Variables
@@ -52,7 +52,7 @@ en
 ```
 #### Subalgoritmos:
 ```
-funcion
+funcion/función
 procedimiento
 ```
 #### Tipos simples:
