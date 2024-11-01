@@ -59,25 +59,25 @@ procedimiento
 ``` 
 entero
 real
-logico
+logico/lógico
 cadena
-caracter
+caracter/carácter
 ```
 
-#### Tipos estructorados:
+#### Tipos estructurados:
 ```
 arreglo
 registro
 archivo
 ```
-#### Primiticas predefinidos:
+#### Primitivas predefinidos:
 ```
 mostrar
 ingresar
 div
 mod
 siguiente |sig
-|anterior|ant
+anterior
 abs
 redondear
 trunc
@@ -86,10 +86,39 @@ seno|coseno|tg
 ln|exp
 longitud|long
 concatena
-subcadena)
+subcadena
+```
+##### Manejo de archivos
+
+```
+abrir
+crear
+anexar
+leer
+escribir
+esFinArchivo
+leerLn
+escribirLn
+esFinLinea
+dondeEstoy
+posicionarse
+tamaño
+cerrar
+renombrarArchivo
+existeArchivo
+borrarArchivo
 ```
 
 ## Release Notes
+
+### 1.5.2
+
+- Corrige typo en operación esFinArchivo
+- Quita abreviatura para operación básica de enumerados "ant"
+
+### 1.5.1
+
+Agrega básicas operaciones archivos
 
 ### 1.4.2
 
